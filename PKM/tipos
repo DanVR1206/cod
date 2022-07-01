@@ -1,0 +1,24 @@
+public abstract class tipos 
+{
+    String[] tiposOponente = {"Acero", "Agua", "Bicho", "Dragon", "Electrico", "Fantasma", "Fuego", "Hada", "Hielo", "Lucha", "Normal", "Planta", "Psiquico", "Roca", "Siniestro", "Veneno", "Volador"};
+    float[] aceroT = {0.5,0.5,1,1,0.5,1,0.5,2,2,1,1,1,1,2,1,1,1,1};
+    float[] aguaT = {1,0.5,1,0.5,1,1,2,1,1,1,1,0.5,1,2,1,2,1,1};
+    float[] bichoT = {0.5,1,1,1,1,0.5,0.5,0.5,1,0.5,1,2,2,1,2,1,0.5,0.5};
+    float[] dragonT = {0.5,1,1,2,1,1,1,0,1,1,1,1,1,1,1,1,1,1};
+    float[] electricoT = {1,2,1,0.5,0.5,1,1,1,1,1,1,0.5,1,1,1,0,1,2};
+    float[] fantasmaT = {1,1,1,1,1,2,1,1,1,1,0,1,2,1,0.5,1,1,1};
+    float[] fuegoT = {2,0.5,2,0.5,1,1,0.5,1,2,1,1,2,1,0.5,1,1,1,1};
+    float[] hadaT = {0.5,1,1,2,1,1,0.5,1,1,2,1,1,1,1,2,1,0.5,1};
+    float[] hieloT = {0.5,0.5,1,2,1,1,0.5,1,0.5,1,1,2,1,1,1,2,1,2};
+    float[] luchaT = {2,1,0.5,1,1,0,1,0.5,2,1,2,1,0.5,2,2,1,0.5,0.5};
+    float[] noarmalT = {0.5,1,1,1,1,0,1,1,1,1,1,1,1,0.5,1,1,1,1};
+    float[] plantaT = {0.5,2,0.5,0.5,1,1,0.5,1,1,1,1,0.5,1,2,1,2,0.5,0.5};
+    float[] psiquicoT = {0.5,1,1,1,1,1,1,1,1,2,1,1,0.5,1,0,1,2,1};
+    float[] rocaT = {0.5,1,2,1,1,1,2,1,2,0.5,1,1,1,1,1,0.5,1,2};
+    float[] siniestroT = {1,1,1,1,1,2,1,0.5,1,0.5,1,1,2,1,0.5,1,1,1};
+    float[] tierraT = {2,1,0.5,1,2,1,2,1,1,1,1,0.5,1,2,1,1,2,0};
+    float[] venenoT = {0,1,1,1,1,0.5,1,2,1,1,1,2,1,0.5,1,0.5,0.5,1};
+    float[] voladorT = {0.5,1,2,1,0.5,1,1,1,1,2,1,2,1,0.5,1,1,1,1};
+}
+
+// https://www.dexerto.es/wp-content/uploads/sites/3/2021/05/14/tabla-de-tipos-pokemon-espada-y-escudo.jpg
